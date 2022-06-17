@@ -1,0 +1,235 @@
+{
+	"id": "54be3c7c-4988-4d2c-b1f2-3370250aa20d",
+	"name": "Test",
+	"timestamp": "2022-06-17T18:17:17.453Z",
+	"collection_id": "20985172-58de0d8a-1f9c-414c-a38e-bd6c7afc46e9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cf36219b-7e67-4272-acb8-e19530e0262b",
+			"name": "HW1-1",
+			"url": "http://162.55.220.72:5005/get_method?name=Neonila&age=34",
+			"time": 193,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				193
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "35884e1e-1a0e-4d42-8226-16ef680bab11",
+			"name": "HW1-2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				174
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "43678c63-fd58-4d99-afbb-b8a297c133f3",
+			"name": "HW1-3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Neonila&age=34&weight=62",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e9516d6a-53b8-4c5a-b4f3-a3036b479067",
+			"name": "HW1-4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Neonila&age=34&salary=1000",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6f616ead-f9ad-489f-9e34-e728f146af12",
+			"name": "HW1-5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Neonila&age=34&salary=1000",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c3c071c4-2fb4-419e-86d6-7587cb374de3",
+			"name": "HW1-6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Neonila&age=34&salary=1000",
+			"time": 197,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9a0b2daf-5bd7-40a5-9ccc-4de02fc0326b",
+			"name": "HW1-7",
+			"url": "http://162.55.220.72:5005/user_info_2?name=Neonila&age=34&salary=1000",
+			"time": 161,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				161
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1167,
+	"collection": {
+		"requests": [
+			{
+				"id": "cf36219b-7e67-4272-acb8-e19530e0262b",
+				"method": "GET"
+			},
+			{
+				"id": "35884e1e-1a0e-4d42-8226-16ef680bab11",
+				"method": "POST"
+			},
+			{
+				"id": "43678c63-fd58-4d99-afbb-b8a297c133f3",
+				"method": "GET"
+			},
+			{
+				"id": "e9516d6a-53b8-4c5a-b4f3-a3036b479067",
+				"method": "GET"
+			},
+			{
+				"id": "6f616ead-f9ad-489f-9e34-e728f146af12",
+				"method": "GET"
+			},
+			{
+				"id": "c3c071c4-2fb4-419e-86d6-7587cb374de3",
+				"method": "GET"
+			},
+			{
+				"id": "9a0b2daf-5bd7-40a5-9ccc-4de02fc0326b",
+				"method": "POST"
+			}
+		]
+	}
+}
