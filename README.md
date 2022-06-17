@@ -92,3 +92,40 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 ![image](https://user-images.githubusercontent.com/106426661/174319778-592aee2b-1d74-447b-9000-a8cb37db831e.png)
+
+EP_6
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': int(age),
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+![image](https://user-images.githubusercontent.com/106426661/174320524-863490f4-4927-4992-896a-4b9dbf821990.png)
+
+EP_7
+Method: POST
+EndPoint: /user_info_2
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+ 
+![image](https://user-images.githubusercontent.com/106426661/174322268-c7f790b1-9557-48f5-82b2-3b251da91dba.png)
+
+
