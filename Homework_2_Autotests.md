@@ -12,7 +12,7 @@ This is the first responce from server!
 #### 2. Status code 200
 
 Choose `Status code: Code is 200` snippet
-```
+```js
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
