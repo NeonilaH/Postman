@@ -28,13 +28,15 @@ request form data:
  age: int
  salary: int
 
-## response: 
+## response:
+```json
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 ![image](https://user-images.githubusercontent.com/106426661/174314474-a5fd30d1-fc03-41a5-8abd-1b9ff1d34751.png)
+```
 
 ### EP_3
 Method: GET
@@ -45,10 +47,12 @@ request url params:
  weight: int
 
 ## response: 
+``` json
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
+          ```
 ![image](https://user-images.githubusercontent.com/106426661/174316921-8678c0e6-1c6b-496f-87b1-c743c7d3bc21.png)
 
 ### EP_4
