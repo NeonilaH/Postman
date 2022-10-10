@@ -68,3 +68,9 @@ pm.test("Status code is 200", function () {
 let respData = pm.response.json();  
 console.log('Response data:', respData);
 ```
+
+#### 4. Parse request.
+```js
+let reqData = pm.request.url.query.toObject();
+console.log('request data:', reqData)
+```
