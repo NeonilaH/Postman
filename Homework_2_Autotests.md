@@ -72,5 +72,5 @@ console.log('Response data:', respData);
 #### 4. Parse request.
 ```js
 let reqData = pm.request.url.query.toObject();
-console.log('request data:', reqData)
+console.log('Request data:', reqData)
 ```
