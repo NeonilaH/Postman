@@ -10,7 +10,9 @@ Port: 5005
 
 ### EP_1
 Method: GET
+
 EndPoint: /get_method
+
 request url params: 
  name: str
  age: int
@@ -26,7 +28,9 @@ response:
 
 ### EP_2
 Method: POST
+
 EndPoint: /user_info_3
+
 request form data: 
  name: str
  age: int
@@ -45,7 +49,9 @@ request form data:
 
 ### EP_3
 Method: GET
+
 EndPoint: /object_info_1
+
 request url params: 
  name: str
  age: int
@@ -63,7 +69,9 @@ request url params:
 
 ### EP_4
 Method: GET
+
 EndPoint: /object_info_2
+
 request url params: 
  name: str
  age: int
@@ -86,7 +94,9 @@ request url params:
 
 ### EP_5
 Method: GET
+
 EndPoint: /object_info_3
+
 request url params: 
  name: str
  age: int
@@ -110,7 +120,9 @@ request url params:
 
 ### EP_6
 Method: GET
+
 EndPoint: /object_info_4
+
 request url params: 
  name: str
  age: int
@@ -124,7 +136,9 @@ request url params:
 
 ### EP_7
 Method: POST
+
 EndPoint: /user_info_2
+
 request form data: 
  name: str
  age: int
