@@ -2,20 +2,16 @@
 
 ### Create requests in Postman.
 
-Protocol: http
-
-IP: 162.55.220.72
-
-Port: 5005
+###### Protocol: http
+###### IP: 162.55.220.72
+###### Port: 5005
 
 ### EP_1
-Method: GET
-
-EndPoint: /get_method
-
-request url params: 
- name: str
- age: int
+###### Method: GET
+###### EndPoint: /get_method
+###### request url params: 
+######  name: str
+######  age: int
 
 #### Response: 
 ```
@@ -27,14 +23,12 @@ request url params:
 ![image](https://user-images.githubusercontent.com/106426661/174310954-605185ce-c530-4e27-b313-37cbcb49e951.png)
 
 ### EP_2
-Method: POST
-
-EndPoint: /user_info_3
-
-request form data: 
- name: str
- age: int
- salary: int
+###### Method: POST
+###### EndPoint: /user_info_3
+###### request form data: 
+######  name: str
+######  age: int
+######  salary: int
 
 #### Response:
 ```
@@ -48,14 +42,12 @@ request form data:
 
 
 ### EP_3
-Method: GET
-
-EndPoint: /object_info_1
-
-request url params: 
- name: str
- age: int
- weight: int
+###### Method: GET
+###### EndPoint: /object_info_1
+###### request url params: 
+######  name: str
+######  age: int
+######  weight: int
 
 #### Response:  
 ```
@@ -68,14 +60,12 @@ request url params:
 ![image](https://user-images.githubusercontent.com/106426661/174316921-8678c0e6-1c6b-496f-87b1-c743c7d3bc21.png)
 
 ### EP_4
-Method: GET
-
-EndPoint: /object_info_2
-
-request url params: 
- name: str
- age: int
- salary: int
+###### Method: GET
+###### EndPoint: /object_info_2
+###### request url params: 
+######  name: str
+######  age: int
+######  salary: int
 
 #### Response:  
 ```
@@ -93,14 +83,12 @@ request url params:
 ![image](https://user-images.githubusercontent.com/106426661/174318984-eb24a3bd-5e3d-45a7-a177-bed2711cb34a.png)
 
 ### EP_5
-Method: GET
-
-EndPoint: /object_info_3
-
-request url params: 
- name: str
- age: int
- salary: int
+###### Method: GET
+###### EndPoint: /object_info_3
+###### request url params: 
+######  name: str
+######  age: int
+######  salary: int
 
 #### Response:  
 ```
@@ -119,14 +107,12 @@ request url params:
 ![image](https://user-images.githubusercontent.com/106426661/174319778-592aee2b-1d74-447b-9000-a8cb37db831e.png)
 
 ### EP_6
-Method: GET
-
-EndPoint: /object_info_4
-
-request url params: 
- name: str
- age: int
- salary: int
+###### Method: GET
+###### EndPoint: /object_info_4
+###### request url params: 
+######  name: str
+######  age: int
+######  salary: int
 
 #### Response:  
 {'name': name,
@@ -135,14 +121,12 @@ request url params:
 ![image](https://user-images.githubusercontent.com/106426661/174320524-863490f4-4927-4992-896a-4b9dbf821990.png)
 
 ### EP_7
-Method: POST
-
-EndPoint: /user_info_2
-
-request form data: 
- name: str
- age: int
- salary: int
+###### Method: POST
+###### EndPoint: /user_info_2
+###### request form data: 
+######  name: str
+######  age: int
+######  salary: int
 
 #### Response:  
 ```
