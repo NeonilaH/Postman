@@ -33,7 +33,7 @@ pm.test("Your test body", function () {
 #### 1. Submit the request.
 
 The response
-```js
+```json
 {
     "age": "35",
     "family": {
