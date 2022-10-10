@@ -20,7 +20,7 @@ pm.test("Status code is 200", function () {
 
 #### 3. Check that the correct string comes in body.
 
-```
+```js
 pm.test("EP_2_1. Your test body", function () {
     pm.response.to.have.body('This is the first responce from server!');
 });
@@ -56,7 +56,7 @@ Response
 #### 2. Status code 200
 
 Choose `Status code: Code is 200` snippet
-```
+```js
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -64,7 +64,7 @@ pm.test("Status code is 200", function () {
 
 #### 3. Parse response body into json.
 
-```
+```js
 let respData = pm.response.json();  
 console.log('Response data:', respData);
 ```
