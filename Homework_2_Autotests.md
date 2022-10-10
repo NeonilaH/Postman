@@ -2,26 +2,26 @@
 
 ### Method `GET`,  URL `http://162.55.220.72:5005/first`
 
-#### 1. Submit a request.
+#### 1. Submit the request.
 
-Response
+The response
 ```
 This is the first responce from server!  
 ```
 
-#### 2. Status code 200.
+#### 2. Status code 200
 
-Choose `Status code: Code is 200` snippet
+Choose the `Status code: Code is 200` snippet
 ```js
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 ```
 
-#### 3. Check that the correct string comes in body.
+#### 3. Check that the correct string comes in the body.
 
 ```js
-pm.test("EP_2_1. Your test body", function () {
+pm.test("Your test body", function () {
     pm.response.to.have.body('This is the first responce from server!');
 });
 ```
@@ -30,10 +30,10 @@ pm.test("EP_2_1. Your test body", function () {
 
 ### Method `POST`,  URL `http://162.55.220.72:5005/user_info_3`
 
-#### 1. Submit a request.
+#### 1. Submit the request.
 
-Response
-```
+The response
+```js
 {
     "age": "35",
     "family": {
@@ -53,24 +53,25 @@ Response
     "salary": 1000
 }
 ```
-#### 2. Status code 200.
+#### 2. Status code 200
 
-Choose `Status code: Code is 200` snippet
+Choose the `Status code: Code is 200` snippet
 ```js
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 ```
 
-#### 3. Parse response body into json.
+#### 3. Parse the response body into json.
 
 ```js
 let responseData = pm.response.json();  
 console.log('Response data:', responseData);
 ```
 
-#### 4. Parse request.
+#### 4. Parse the request.
 ```js
 let requestData = pm.request.url.query.toObject();
 console.log('Request data:', requestData)
-```
+
+
