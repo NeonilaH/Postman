@@ -55,5 +55,16 @@ Response
 ```
 #### 2. Status code 200
 
+Choose `Status code: Code is 200` snippet
+```
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
 #### 3. Parse response body into json.
 
+```
+let respData = pm.response.json();  
+console.log('Response data:', respData);
+```
