@@ -31,12 +31,13 @@ request form data:
  salary: int
 
 ## response:
-
+``
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
+```                     
 ![image](https://user-images.githubusercontent.com/106426661/174314474-a5fd30d1-fc03-41a5-8abd-1b9ff1d34751.png)
 
 
@@ -90,6 +91,7 @@ request url params:
  salary: int
 
 ## response: 
+```
 {'name': name,
           'age': age,
           'salary': salary,
@@ -100,6 +102,8 @@ request url params:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
+
+```
 ![image](https://user-images.githubusercontent.com/106426661/174319778-592aee2b-1d74-447b-9000-a8cb37db831e.png)
 
 ### EP_6
@@ -125,6 +129,7 @@ request form data:
  salary: int
 
 ## response: 
+```
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -134,7 +139,7 @@ request form data:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
- 
+ ```
 ![image](https://user-images.githubusercontent.com/106426661/174322268-c7f790b1-9557-48f5-82b2-3b251da91dba.png)
 
 Run collection
