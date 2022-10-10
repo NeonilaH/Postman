@@ -47,12 +47,12 @@ request url params:
  weight: int
 
 ## response: 
-
+``` json
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
-         
+```         
           
 ![image](https://user-images.githubusercontent.com/106426661/174316921-8678c0e6-1c6b-496f-87b1-c743c7d3bc21.png)
 
