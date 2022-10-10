@@ -9,7 +9,7 @@ Response
 This is the first responce from server!  
 ```
 
-#### 2. Status code 200
+#### 2. Status code 200.
 
 Choose `Status code: Code is 200` snippet
 ```js
@@ -53,7 +53,7 @@ Response
     "salary": 1000
 }
 ```
-#### 2. Status code 200
+#### 2. Status code 200.
 
 Choose `Status code: Code is 200` snippet
 ```js
