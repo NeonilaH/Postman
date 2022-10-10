@@ -33,7 +33,7 @@ request form data:
  salary: int
 
 ## response:
-``
+```
 {'name': name,
           'age': age,
           'salary': salary,
