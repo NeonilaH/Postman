@@ -69,9 +69,21 @@ let responseData = pm.response.json();
 console.log('Response data:', responseData);
 ```
 
-#### 4. Parse the request.
+#### 4. Check that the name in the response is equal to the name in the request (type the name manually.)
+
 ```js
-let requestData = pm.request.url.query.toObject();
-console.log('Request data:', requestData)
+pm.test("Your test name", function () {
+    pm.expect(responseData.name).to.eql('Nelly');
+});
+```
+
+#### 5. Check that the age in the response is equal to the age in the request (type the age manually.)
 
 
+```js
+pm.test("Your test age", function () {
+    pm.expect(responseData.age).to.eql('35');
+});
+```
+
+#### 6. 
