@@ -14,10 +14,12 @@ request url params:
  age: int
 
 response: 
+```
 [
     “Str”,
     “Str”
 ]
+```
 ![image](https://user-images.githubusercontent.com/106426661/174310954-605185ce-c530-4e27-b313-37cbcb49e951.png)
 
 ### EP_2
@@ -47,7 +49,7 @@ request url params:
  weight: int
 
 ## response: 
-``` json
+```
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
@@ -65,6 +67,7 @@ request url params:
  salary: int
 
 ## response: 
+```
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -74,6 +77,8 @@ request url params:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+```
+          
 ![image](https://user-images.githubusercontent.com/106426661/174318984-eb24a3bd-5e3d-45a7-a177-bed2711cb34a.png)
 
 ### EP_5
