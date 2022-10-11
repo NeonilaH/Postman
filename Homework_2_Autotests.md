@@ -323,7 +323,7 @@ pm.test("Console salary request", () => {
 });
 ```
 
-#### 8. Print the salary parameter from response to the console.
+#### 8. Print the salary parameter from the response to the console.
 
 ```js
 pm.test("Console salary response", () => {
