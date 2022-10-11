@@ -315,7 +315,7 @@ pm.test("Response age = Request age", () => {
 });
 ```
 
-#### 7. Print the salary parameter from request to the console.
+#### 7. Print the salary parameter from the request to the console.
 
 ```js
 pm.test("Console salary request", () => {
