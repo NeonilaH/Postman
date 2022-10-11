@@ -66,7 +66,6 @@ pm.test("Status code is 200", function () {
 
 ```js
 let responseData = pm.response.json();  
-console.log('Response data:', responseData);
 ```
 
 #### 4. Check that the name in the response is equal to the name in the request (type the name manually).
