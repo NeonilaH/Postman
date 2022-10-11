@@ -264,7 +264,7 @@ pm.test("Dog age has value 4", () => {
 
 ### Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`
 
-#### 1. Submit a request.
+#### 1. Submit the request.
 
 The response
 ```json
