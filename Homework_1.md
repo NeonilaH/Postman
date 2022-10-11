@@ -16,8 +16,8 @@
 #### Response: 
 ```
 [
-    “Str”,
-    “Str”
+    "Neonila",
+    "34"
 ]
 ```
 ![image](https://user-images.githubusercontent.com/106426661/174310954-605185ce-c530-4e27-b313-37cbcb49e951.png)
