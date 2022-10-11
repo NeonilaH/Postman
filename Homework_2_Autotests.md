@@ -187,7 +187,7 @@ pm.test("Status code is 200", function () {
 #### 3. Parse the response body into json.
 
 ```js
-let respData = pm.response.json();  
+let resp = pm.response.json();  
 ```
 
 #### 4. Parse the request.
@@ -261,4 +261,121 @@ pm.test("Dog age has value 4", () => {
 ```
 
 ***
+
+### Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`
+
+#### 1. Submit a request.
+
+The response
+```json
+{
+    "age": 35,
+    "name": "Nelly",
+    "salary": [
+        1000,
+        "2000",
+        "3000"
+    ]
+}
+```
+
+#### 2. Status code 200
+
+```js
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
+#### 3. Parse the response body into json.
+
+```js
+let resp = pm.response.json();  
+```
+
+#### 4. Parse the request.
+
+```js
+let req = pm.request.url.query.toObject();
+```
+
+#### 5. Check that the name in the response is equal to the name in the request (take the name from the request).
+
+```js
+pm.test("Response name = Request name", () => {
+    pm.expect(resp.name).to.eql(req.name)
+});
+```
+
+#### 6. Check that the age in the response is equal to the age in the request (take the age from the request).
+
+```js
+pm.test("Response age = Request age", () => {
+    pm.expect(resp.age).to.eql(req.age)
+});
+```
+
+#### 7. Print the salary parameter from request to the console.
+
+```js
+pm.test("Console salary request", () => {
+    console.log(req.salary)
+});
+```
+
+#### 8. Print the salary parameter from response to the console.
+
+```js
+pm.test("Console salary response", () => {
+    console.log(resp.salary)
+});
+```
+
+#### 9. Print the 0th element of the salary parameter from response to the console.
+
+```js
+pm.test("The 0th element of the salary", () => {
+    console.log("the 0th element of the salary is ", resp.salary)
+});
+```
+
+#### 10. Print to the console the 1st element of the salary parameter, the salary parameter from the response.
+
+```js
+pm.test("The 1th element of the salary", () => {
+    console.log("the 1st element of the salary is " + resp.salary[1])
+});
+```
+
+#### 11. Print to the console the 2nd element of the salary parameter, the salary parameter from the response.
+
+```js
+pm.test("The 2nd element of the salary", () => {
+    console.log("the 2nd element of the salary is " + resp.salary[2])
+});
+```
+
+#### 12. Check that the 0th element of the salary parameter is equal to the salary from the request (pick the salary from the request).
+
+```js
+pm.test("Response salary[0] = Request salary", () => {
+    pm.expect(resp.salary[0]).to.eql(+req.salary)
+});
+```
+
+#### 13. Check that the 1st element of the salary parameter is equal to the salary*2 from the request (pick the salary from the request).
+
+```js
+pm.test("Response salary[1] = Request salary * 2", () => {
+    pm.expect(+resp.salary[1]).to.eql(+req.salary * 2)
+});
+```
+
+#### 14. Check that the 2nd element of the salary parameter is equal to salary*3 from the request (pick the salary from the request).
+
+```js
+pm.test("Response salary[2] = Request salary * 3", () => {
+    pm.expect(+resp.salary[2]).to.eql(+req.salary * 3)
+});
+```
 
