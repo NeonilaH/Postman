@@ -371,7 +371,7 @@ pm.test("Response salary[1] = Request salary * 2", () => {
 });
 ```
 
-#### 14. Check that the 2nd element of the salary parameter is equal to salary*3 from the request (pick the salary from the request).
+#### 14. Check that the 2nd element of the salary parameter is equal to the salary*3 from the request (pick the salary from the request).
 
 ```js
 pm.test("Response salary[2] = Request salary * 3", () => {
