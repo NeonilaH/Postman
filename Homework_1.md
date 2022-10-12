@@ -114,10 +114,13 @@
 ######  age: int
 ######  salary: int
 
-#### Response:  
+#### Response:
+```
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
+```
+
 ![image](https://user-images.githubusercontent.com/106426661/174320524-863490f4-4927-4992-896a-4b9dbf821990.png)
 
 ### EP_7
