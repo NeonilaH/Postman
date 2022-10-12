@@ -64,10 +64,12 @@
 
 #### Response:  
 ```json
-{'name': name,
-          'age': age,
-          'daily_food': weight * 0.012,
-          'daily_sleep': weight * 2.5}
+{
+    "age": 34,
+    "daily_food": 0.744,
+    "daily_sleep": 155.0,
+    "name": "Neonila"
+}
 ```         
           
 ![image](https://user-images.githubusercontent.com/106426661/174316921-8678c0e6-1c6b-496f-87b1-c743c7d3bc21.png)
@@ -82,15 +84,21 @@
 
 #### Response:  
 ```
-{'start_qa_salary': salary,
-          'qa_salary_after_6_months': salary * 2,
-          'qa_salary_after_12_months': salary * 2.7,
-          'qa_salary_after_1.5_year': salary * 3.3,
-          'qa_salary_after_3.5_years': salary * 3.8,
-          'person': {'u_name': [user_name, salary, age],
-                     'u_age': age,
-                     'u_salary_5_years': salary * 4.2}
-          }
+{
+    "person": {
+        "u_age": 34,
+        "u_name": [
+            "Neonila",
+            1000,
+            34
+        ],
+        "u_salary_5_years": 4200.0
+    },
+    "qa_salary_after_1.5_year": 3300.0,
+    "qa_salary_after_12_months": 2700.0,
+    "qa_salary_after_3.5_years": 3800.0,
+    "qa_salary_after_6_months": 2000,
+    "start_qa_salary": 1000
 ```
           
 ![image](https://user-images.githubusercontent.com/106426661/174318984-eb24a3bd-5e3d-45a7-a177-bed2711cb34a.png)
@@ -105,17 +113,34 @@
 
 #### Response:  
 ```
-{'name': name,
-          'age': age,
-          'salary': salary,
-          'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'pets': {'cat':{'name':'Sunny',
-                                     'age': 3},
-                              'dog':{'name':'Luky',
-                                     'age': 4}},
-                     'u_salary_1_5_year': salary * 4}
-          }
-
+{
+    "age": "34",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "pets": {
+            "cat": {
+                "age": 3,
+                "name": "Sunny"
+            },
+            "dog": {
+                "age": 4,
+                "name": "Luky"
+            }
+        },
+        "u_salary_1_5_year": 4000
+    },
+    "name": "Neonila",
+    "salary": 1000
+}
 ```
 ![image](https://user-images.githubusercontent.com/106426661/174319778-592aee2b-1d74-447b-9000-a8cb37db831e.png)
 
