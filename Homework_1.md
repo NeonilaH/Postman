@@ -83,7 +83,7 @@
 ######  salary: int
 
 #### Response:  
-```
+```json
 {
     "person": {
         "u_age": 34,
