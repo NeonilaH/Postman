@@ -14,7 +14,7 @@
 ######  age: int
 
 #### Response: 
-```
+```json
 [
     "Neonila",
     "34"
