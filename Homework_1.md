@@ -99,7 +99,8 @@
     "qa_salary_after_3.5_years": 3800.0,
     "qa_salary_after_6_months": 2000,
     "start_qa_salary": 1000
-```
+}
+``` 
           
 ![image](https://user-images.githubusercontent.com/106426661/174318984-eb24a3bd-5e3d-45a7-a177-bed2711cb34a.png)
 
