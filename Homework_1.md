@@ -31,7 +31,7 @@
 ######  salary: int
 
 #### Response:
-```
+```json
 {'name': name,
           'age': age,
           'salary': salary,
@@ -50,7 +50,7 @@
 ######  weight: int
 
 #### Response:  
-```
+```json
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
