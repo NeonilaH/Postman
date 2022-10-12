@@ -408,7 +408,7 @@ let age = req.age
 pm.environment.set("age", age);
 ```
 
-#### 20. Pass the salary variable to the environment
+#### 20. Pass the salary variable to the environment.
 
 ```js
 let salary = req.salary
