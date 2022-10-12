@@ -32,12 +32,24 @@
 
 #### Response:
 ```json
-{'name': name,
-          'age': age,
-          'salary': salary,
-          'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'u_salary_1_5_year': salary * 4}
-                     }
+{
+    "age": "34",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "u_salary_1_5_year": 4000
+    },
+    "name": "Neonila",
+    "salary": 1000
+}
 ```                     
 ![image](https://user-images.githubusercontent.com/106426661/174314474-a5fd30d1-fc03-41a5-8abd-1b9ff1d34751.png)
 
