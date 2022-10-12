@@ -379,10 +379,10 @@ pm.test("Response salary[2] = Request salary * 3", () => {
 });
 ```
 
-
 #### 15. Create a variable name in the environment.
 
-After clicking New button at top right, choose Environment and give it a name. 
+After clicking New button at top right, choose Environment and give it a name.
+
 In the Environment add variable `name` and set value `Nelly`.
 
 #### 16. Create a variable age in the environment.
