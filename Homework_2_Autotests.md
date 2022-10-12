@@ -379,3 +379,46 @@ pm.test("Response salary[2] = Request salary * 3", () => {
 });
 ```
 
+
+#### 15. Create a variable name in the environment.
+
+After clicking New button at top right, choose Environment and give it a name. 
+In the Environment add variable `name` and set value `Nelly`.
+
+#### 16. Create a variable age in the environment.
+
+In the Environment add variable `age` and set value `35`. 
+
+
+#### 17. Create a salary variable in the environment
+
+In the Environment add variable `salary` and set value `1000`. 
+
+#### 18. Pass the name variable to the environment.
+
+```js
+let name = req.name
+pm.environment.set("name", name);
+```
+
+#### 19. Pass the age variable to the environment.
+
+```js
+let age = req.age
+pm.environment.set("age", age);
+```
+
+#### 20. Pass the salary variable to the environment
+
+```js
+let salary = req.salary
+pm.environment.set("salary", salary);
+```
+
+#### 21. Write a loop that will output the list elements from the salary parameter to the console in order.
+
+```js
+for (let i = 0; i < resp.salary.length ; i++) {
+console.log(resp.salary[i])
+};
+```
