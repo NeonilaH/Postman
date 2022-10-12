@@ -153,7 +153,7 @@
 ######  salary: int
 
 #### Response:
-```
+```json
 {
     "age": 34,
     "name": "Neonila",
@@ -176,7 +176,7 @@
 ######  salary: int
 
 #### Response:  
-```
+```json
 {
     "person": {
         "u_age": 34,
