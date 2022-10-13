@@ -264,7 +264,7 @@ pm.test("Dog age has value 4", () => {
 
 ### Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`
 
-#### 1. Submit the request.
+#### 1. Submit a request.
 
 The response
 ```json
@@ -279,7 +279,7 @@ The response
 }
 ```
 
-#### 2. Status code 200
+#### 2. Status code 200.
 
 ```js
 pm.test("Status code is 200", function () {
@@ -315,7 +315,7 @@ pm.test("Response age = Request age", () => {
 });
 ```
 
-#### 7. Print the salary parameter from the request to the console.
+#### 7. Print the salary parameter from request to the console.
 
 ```js
 pm.test("Console salary request", () => {
@@ -323,7 +323,7 @@ pm.test("Console salary request", () => {
 });
 ```
 
-#### 8. Print the salary parameter from the response to the console.
+#### 8. Print the salary parameter from response to the console.
 
 ```js
 pm.test("Console salary response", () => {
@@ -381,8 +381,7 @@ pm.test("Response salary[2] = Request salary * 3", () => {
 
 #### 15. Create a variable name in the environment.
 
-After clicking New button at top right, choose Environment and give it a name.
-
+After clicking New button at top right, choose Environment and give it a name. 
 In the Environment add variable `name` and set value `Nelly`.
 
 #### 16. Create a variable age in the environment.
@@ -408,7 +407,7 @@ let age = req.age
 pm.environment.set("age", age);
 ```
 
-#### 20. Pass the salary variable to the environment.
+#### 20. Pass the salary variable to the environment
 
 ```js
 let salary = req.salary
@@ -422,3 +421,59 @@ for (let i = 0; i < resp.salary.length ; i++) {
 console.log(resp.salary[i])
 };
 ```
+
+***
+
+### Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
+
+#### 1. Insert the salary parameter from the environment into the request.
+In Body tab choose form-data. Set KEY salary and VALUE {{salary}}.
+
+#### 2. Insert the age parameter from the environment into age.
+In Body tab choose form-data. Set KEY age and VALUE {{age}}.
+
+#### 3. Insert the name parameter from the environment into name.
+In Body tab choose form-data. Set KEY name and VALUE {{name}}.
+
+#### 4. Submit the request.
+Response:
+```json
+{
+    "person": {
+        "u_age": 35,
+        "u_name": [
+            "Nelly",
+            1000,
+            35
+        ],
+        "u_salary_5_years": 4200.0
+    },
+    "qa_salary_after_1.5_year": 3300.0,
+    "qa_salary_after_12_months": 2700.0,
+    "qa_salary_after_3.5_years": 3800.0,
+    "qa_salary_after_6_months": 2000,
+    "start_qa_salary": 1000
+}
+```
+
+#### 5. Status code 200.
+
+```js
+pm.test("Status code is 200", () => {
+    pm.response.to.have.status(200);
+});
+```
+
+#### 6. Parse the response body to json.
+
+```json
+let resp = pm.response.json();
+```
+
+#### 7. Parse the request.
+
+```json
+let req = request.data;
+```
+
+#### 8. Check json response has start_qa_salary parameter.
