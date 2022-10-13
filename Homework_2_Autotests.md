@@ -466,13 +466,13 @@ pm.test("Status code is 200", () => {
 
 #### 6. Parse the response body to json.
 
-```json
+```js
 let resp = pm.response.json();
 ```
 
 #### 7. Parse the request.
 
-```json
+```js
 let req = request.data;
 ```
 
