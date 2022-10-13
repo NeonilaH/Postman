@@ -477,3 +477,9 @@ let req = request.data;
 ```
 
 #### 8. Check json response has start_qa_salary parameter.
+
+```js
+pm.test("start_qa_salary in response", () => {
+    pm.expect(resp).to.haveOwnProperty("start_qa_salary")
+};
+```
