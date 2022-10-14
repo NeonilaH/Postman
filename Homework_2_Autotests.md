@@ -481,5 +481,45 @@ let req = request.data;
 ```js
 pm.test("start_qa_salary in response", () => {
     pm.expect(resp).to.haveOwnProperty("start_qa_salary")
-};
+});
+```
+
+#### 9. Check json response has qa_salary_after_6_months parameter.
+
+```js
+pm.test("qa_salary_after_6_months in response", () => {
+    pm.expect(resp).to.haveOwnProperty("qa_salary_after_6_months")
+});
+```
+
+#### 10. Check json response has qa_salary_after_12_months parameter.
+
+```js
+pm.test ("qa_salary_after_12_months in response", () => {
+    pm.expect(resp).to.haveOwnProperty("qa_salary_after_12_months")
+});
+```
+
+#### 11. Check json response has qa_salary_after_1.5_year parameter.
+
+```js
+pm.test ("qa_salary_after_1.5_year in response", () => {
+    pm.expect(resp).to.haveOwnProperty("qa_salary_after_1.5_year")
+});
+```
+
+#### 12. Check json response has qa_salary_after_3.5_years parameter.
+
+```js
+pm.test ("qa_salary_after_3.5_years in response", () => {
+    pm.expect(resp).to.haveOwnProperty("qa_salary_after_3.5_years")
+});
+```
+
+#### 13. Check json response has person parameter.
+
+```js
+pm.test ("person in response", () => {
+    pm.expect(resp).to.haveOwnProperty("person")
+});
 ```
