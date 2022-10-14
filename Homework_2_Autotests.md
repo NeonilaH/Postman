@@ -562,3 +562,35 @@ pm.test ("qa_salary_after_3.5_year = salary*3.8 from the request", () => {
     pm.expect(resp['qa_salary_after_3.5_years']).to.eql(+req.salary*3.8)
 });
 ```
+
+#### 19. Check that in the person parameter, the 1st element from u_name is equal to salary from the request (take the salary from the request).
+
+```js
+pm.test("response u_name[1] = request salary", () => {
+    pm.expect(resp.person.u_name[1]).to.eql(+req.salary);
+});
+```
+
+#### 20. Check that the u_age parameter is equal to age from  the request (take the salary from the request).
+
+```js
+pm.test("response u_age = request age", () => {
+    pm.expect(resp.person.u_age).to.eql(+req.age);
+});
+```
+
+#### 21. Check that the u_salary_5_years parameter is equal to salary*4.2 from  the request (take the salary from the request).
+
+```js
+pm.test ("u_salary_5_years = salary*4.2 from the request", () => {
+    pm.expect(resp.person.u_salary_5_years).to.eql(+req.salary*4.2)
+});
+```
+
+#### 22. ***Write a loop that will output the list items from the person parameter to the console in order.
+
+```js
+for (let i in resp.person) {  
+console.log(i +': ' + resp.person[i]);  
+	};
+```
