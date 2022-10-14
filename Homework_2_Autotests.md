@@ -611,7 +611,7 @@ console.log(i +': ' + resp.person[i]);
 ```
 
 Console:
-```js
+```
 u_age: 35
 u_name: Nelly,1000,35
 u_salary_5_years: 4200
