@@ -523,3 +523,42 @@ pm.test ("person in response", () => {
     pm.expect(resp).to.haveOwnProperty("person")
 });
 ```
+#### 14. Check that the start_qa_salary parameter is equal to the salary from the request (take the salary from the request).
+
+```js
+pm.test ("start_qa_salary = salary from the request", () => {
+    pm.expect(resp.start_qa_salary).to.eql(+req.salary)
+});
+```
+
+#### 15. Check that the qa_salary_after_6_months parameter is equal to salary*2 from the request (take the salary from the request).
+
+```js
+pm.test ("qa_salary_after_6_months = salary*2 from the request", () => {
+    pm.expect(resp.qa_salary_after_6_months).to.eql(req.salary*2)
+});
+```
+
+#### 16. Check that the qa_salary_after_12_months parameter is equal to salary*2.7 from the request (take the salary from the request).
+
+```js
+pm.test ("qa_salary_after_12_months = salary*2.7 from the request", () => {
+    pm.expect(resp.qa_salary_after_12_months).to.eql(+req.salary*2.7)
+});
+```
+
+#### 17. Check that the qa_salary_after_1.5_year parameter is equal to salary*3.3 from the request (take the salary from the request).
+
+```js
+pm.test ("qa_salary_after_1.5_year = salary*3.3 from the request", () => {
+    pm.expect(resp['qa_salary_after_1.5_year']).to.eql(+req.salary*3.3)
+});
+```
+
+#### 18. Check that the qa_salary_after_3.5_years parameter is equal to salary*3.8 from the request (take the salary from the request).
+
+```js
+pm.test ("qa_salary_after_3.5_year = salary*3.8 from the request", () => {
+    pm.expect(resp['qa_salary_after_3.5_years']).to.eql(+req.salary*3.8)
+});
+```
