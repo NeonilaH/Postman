@@ -35,12 +35,12 @@ age: int</br>
 
 ## **Request_1.2**<a name="1.2"><a>
     
-###### Method: POST
-###### EndPoint: /user_info_3
-###### request form data: 
-######  name: str
-######  age: int
-######  salary: int
+Method: POST</br>
+EndPoint: /user_info_3</br>
+request form data: </br>
+name: str</br>
+age: int</br>
+salary: int</br>
 
 #### Response:
 ```json
@@ -67,12 +67,12 @@ age: int</br>
 
 ## **Request_1.3**<a name="1.3"><a>
     
-###### Method: GET
-###### EndPoint: /object_info_1
-###### request url params: 
-######  name: str
-######  age: int
-######  weight: int
+Method: GET</br>
+EndPoint: /object_info_1</br>
+request url params: </br>
+name: str</br>
+age: int</br>
+weight: int
 
 #### Response:  
 ```json
