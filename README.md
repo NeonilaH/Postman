@@ -19,11 +19,11 @@
 ***
 ## **Request_1.1**<a name="1.1"><a>
     
-###### Method: GET
-###### EndPoint: /get_method
-###### request url params: 
-######  name: str
-######  age: int
+Method: GET</br>
+EndPoint: /get_method</br>
+request url params: </br>
+name: str</br>
+age: int</br>
 
 #### Response: 
 ```json
