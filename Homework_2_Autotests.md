@@ -1,12 +1,12 @@
 ## HW_2 Postman
 
-[Request_1](#1.1)  
-[Request_2](#1.2)   
-[Request_3](#1.3)     
-[Request_4](#1.4)     
-[Request_5](#1.5) 
+[Autotests_2.1](#2.1)  
+[Autotests_2.2](#2.2)   
+[Autotests_2.3](#2.3)     
+[Autotests_2.4](#2.4)     
+[Autotests_2.5](#2.5) 
 
-## **Request_1**<a name="1.1"><a>
+## **Autotests_2.1**<a name="2.1"><a>
 
 ### Method `GET`,  URL `http://162.55.220.72:5005/first`
 
@@ -34,7 +34,7 @@ pm.test("Body matches string", function () {
     })
 ```
 
-## **Request_2**<a name="1.2"><a>	
+## **Autotests_2.2**<a name="2.2"><a>	
 ***
 
 ### Method `POST`,  URL `http://162.55.220.72:5005/user_info_3`
@@ -149,7 +149,7 @@ pm.test("Salary * 4 in 1.5 years", function () {
 
 ***
 
-## **Request_3**<a name="1.3"><a>
+## **Autotests_2.3**<a name="2.3"><a>
 	
 ### Method `GET`,  URL `http://162.55.220.72:5005/object_info_3`
 
@@ -273,7 +273,7 @@ pm.test("Dog age has value 4", () => {
 
 ***
 
-## **Request_4**<a name="1.4"><a>	
+## **Autotests_2.4**<a name="4.4"><a>	
 	
 ### Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`
 
@@ -437,7 +437,7 @@ console.log(resp.salary[i])
 
 ***
 
-## **Request_5**<a name="1.5"><a>				      
+## **Autotests_2.5**<a name="2.5"><a>				      
 				      
 ### Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
 
