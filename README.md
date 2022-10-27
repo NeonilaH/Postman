@@ -87,12 +87,12 @@ weight: int
 
 ## **Request_1.4**<a name="1.4"><a>
     
-###### Method: GET
-###### EndPoint: /object_info_2
-###### request url params: 
-######  name: str
-######  age: int
-######  salary: int
+Method: GET</br>
+EndPoint: /object_info_2</br>
+request url params:</br> 
+name: str</br>
+age: int</br>
+salary: int
 
 #### Response:  
 ```json
@@ -117,12 +117,12 @@ weight: int
 
 ## **Request_1.5**<a name="1.5"><a>
     
-###### Method: GET
-###### EndPoint: /object_info_3
-###### request url params: 
-######  name: str
-######  age: int
-######  salary: int
+Method: GET</br>
+EndPoint: /object_info_3</br>
+request url params: </br>
+name: str</br>
+age: int</br>
+salary: int
 
 #### Response:  
 ```json
@@ -158,12 +158,12 @@ weight: int
 
 ## **Request_1.6**<a name="1.6"><a>
     
-###### Method: GET
-###### EndPoint: /object_info_4
-###### request url params: 
-######  name: str
-######  age: int
-######  salary: int
+Method: GET</br>
+EndPoint: /object_info_4</br>
+request url params: </br>
+name: str</br>
+age: int</br>
+salary: int
 
 #### Response:
 ```json
@@ -181,12 +181,12 @@ weight: int
 
 ## **Request_1.7**<a name="1.7"><a>
     
-###### Method: POST
-###### EndPoint: /user_info_2
-###### request form data: 
-######  name: str
-######  age: int
-######  salary: int
+Method: POST</br>
+EndPoint: /user_info_2</br>
+request form data: </br>
+name: str</br>
+age: int</br>
+salary: int
 
 #### Response:  
 ```json
