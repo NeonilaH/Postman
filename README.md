@@ -1,8 +1,6 @@
 # Postman
 ## HW_1 Postman
 
-### Create requests in Postman.
-
 [Request_1.1](#1.1)  
 [Request_1.2](#1.2)   
 [Request_1.3](#1.3)     
@@ -11,6 +9,9 @@
 [Request_1.6](#1.6)     
 [Request_1.7](#1.7)</br>
 [Run collection_1.8](#1.8)
+
+
+### Create requests in Postman.
 
 Protocol: http</br>
 IP: 162.55.220.72</br>
