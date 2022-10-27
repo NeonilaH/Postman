@@ -1,22 +1,23 @@
 # Postman
-## HW_2 Postman
+## HW_1 Postman
 
 ### Create requests in Postman.
 
-[Request_1](#1.1)  
-[Request_2](#1.2)   
-[Request_3](#1.3)     
-[Request_4](#1.4)     
-[Request_5](#1.5)     
-[Request_6](#1.6)     
-[Request_7](#1.7)  
+[Request_1.1](#1.1)  
+[Request_1.2](#1.2)   
+[Request_1.3](#1.3)     
+[Request_1.4](#1.4)     
+[Request_1.5](#1.5)     
+[Request_1.6](#1.6)     
+[Request_1.7](#1.7)
+[Run collection_1.8](#1.8)
 
 ###### Protocol: http
 ###### IP: 162.55.220.72
 ###### Port: 5005
 
 ***
-## **Request_1**<a name="1.1"><a>
+## **Request_1.1**<a name="1.1"><a>
     
 ###### Method: GET
 ###### EndPoint: /get_method
@@ -32,7 +33,7 @@
 ]
 ```
 
-## **Request_2**<a name="1.2"><a>
+## **Request_1.2**<a name="1.2"><a>
     
 ###### Method: POST
 ###### EndPoint: /user_info_3
@@ -64,7 +65,7 @@
 ```                     
 
 
-## **Request_3**<a name="1.3"><a>
+## **Request_1.3**<a name="1.3"><a>
     
 ###### Method: GET
 ###### EndPoint: /object_info_1
@@ -84,7 +85,7 @@
 ```         
           
 
-## **Request_4**<a name="1.4"><a>
+## **Request_1.4**<a name="1.4"><a>
     
 ###### Method: GET
 ###### EndPoint: /object_info_2
@@ -114,7 +115,7 @@
 ``` 
           
 
-## **Request_5**<a name="1.5"><a>
+## **Request_1.5**<a name="1.5"><a>
     
 ###### Method: GET
 ###### EndPoint: /object_info_3
@@ -155,7 +156,7 @@
 }
 ```
 
-## **Request_6**<a name="1.6"><a>
+## **Request_1.6**<a name="1.6"><a>
     
 ###### Method: GET
 ###### EndPoint: /object_info_4
@@ -178,7 +179,7 @@
 ```
 
 
-## **Request_7**<a name="1.7"><a>
+## **Request_1.7**<a name="1.7"><a>
     
 ###### Method: POST
 ###### EndPoint: /user_info_2
@@ -207,6 +208,6 @@
 }
  ```
 
-### Run collection
+## **Run collection_1.8**<a name="1.8"><a>
 
 ![image](https://user-images.githubusercontent.com/106426661/174355822-a0084834-3291-47bc-840d-9aa2363b2dae.png)
