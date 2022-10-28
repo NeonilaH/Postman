@@ -1,5 +1,4 @@
-# Postman
-## HW_1 Postman
+####  HW_1 Postman
 
 [Request_1.1](#1.1)  
 [Request_1.2](#1.2)   
@@ -10,7 +9,7 @@
 [Request_1.7](#1.7)</br>
 [Run collection_1.8](#1.8)
 
-## HW_2 Postman
+####  HW_2 Postman
 
 [Autotests_2.1](#2.1)  
 [Autotests_2.2](#2.2)   
