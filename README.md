@@ -256,27 +256,6 @@ pm.test("Body matches string", function () {
 
 #### 1. Submit the request.
 
-The response
-```json
-{
-    "age": "35",
-    "family": {
-        "children": [
-            [
-                "Alex",
-                24
-            ],
-            [
-                "Kate",
-                12
-            ]
-        ],
-        "u_salary_1_5_year": 4000
-    },
-    "name": "Nelly",
-    "salary": 1000
-}
-```
 
 #### 2. Status code 200.
 
