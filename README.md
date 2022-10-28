@@ -437,7 +437,7 @@ pm.test("Dog age has value 4", function () {
 
 ***
 
-## **Autotests_&_Environments_2.4**<a name="4.4"><a>	
+## **Autotests_&_Environments_2.4**<a name="2.4"><a>	
 
 #### 1. Submit a request.
 
