@@ -14,8 +14,8 @@
 [Autotests_2.1](#2.1)  
 [Autotests_2.2](#2.2)   
 [Autotests_2.3](#2.3)     
-[Autotests_2.4](#2.4)     
-[Autotests_2.5](#2.5) 
+[Autotests_&_Environments_2.4](#2.4)     
+[Autotests_&_Environments_2.5](#2.5) 
 
 ***
 
@@ -437,7 +437,7 @@ pm.test("Dog age has value 4", function () {
 
 ***
 
-## **Autotests_2.4**<a name="4.4"><a>	
+## **Autotests_&_Environments_2.4**<a name="4.4"><a>	
 
 #### 1. Submit a request.
 
@@ -588,7 +588,7 @@ console.log(resp.salary[i])
 
 ***
 
-## **Autotests_2.5**<a name="2.5"><a>				      
+## **Autotests_&_Environments_2.5**<a name="2.5"><a>				      
 
 #### 1. Insert the salary parameter from the environment into the request.
 In Body tab choose form-data. Set KEY salary and VALUE {{salary}}.
