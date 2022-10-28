@@ -370,37 +370,6 @@ pm.test("Salary * 4 in 1.5 years", function () {
 
 #### 1. Submit the request.
 
-The response
-```json
-{
-    "age": "35",
-    "family": {
-        "children": [
-            [
-                "Alex",
-                24
-            ],
-            [
-                "Kate",
-                12
-            ]
-        ],
-        "pets": {
-            "cat": {
-                "age": 3,
-                "name": "Sunny"
-            },
-            "dog": {
-                "age": 4,
-                "name": "Luky"
-            }
-        },
-        "u_salary_1_5_year": 4000
-    },
-    "name": "Nelly",
-    "salary": 1000
-}
-```
 
 #### 2. Status code 200.
 
@@ -494,18 +463,6 @@ pm.test("Dog age has value 4", () => {
 
 #### 1. Submit a request.
 
-The response
-```json
-{
-    "age": 35,
-    "name": "Nelly",
-    "salary": [
-        1000,
-        "2000",
-        "3000"
-    ]
-}
-```
 
 #### 2. Status code 200.
 
@@ -666,25 +623,7 @@ In Body tab choose form-data. Set KEY age and VALUE {{age}}.
 In Body tab choose form-data. Set KEY name and VALUE {{name}}.
 
 #### 4. Submit the request.
-Response:
-```json
-{
-    "person": {
-        "u_age": 35,
-        "u_name": [
-            "Nelly",
-            1000,
-            35
-        ],
-        "u_salary_5_years": 4200.0
-    },
-    "qa_salary_after_1.5_year": 3300.0,
-    "qa_salary_after_12_months": 2700.0,
-    "qa_salary_after_3.5_years": 3800.0,
-    "qa_salary_after_6_months": 2000,
-    "start_qa_salary": 1000
-}
-```
+
 
 #### 5. Status code 200.
 
