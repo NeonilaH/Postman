@@ -22,7 +22,6 @@
 ## HW_1 Postman
 
 ### Create requests in Postman.
-
 Protocol: http</br>
 IP: 162.55.220.72</br>
 Port: 5005
