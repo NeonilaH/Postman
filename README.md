@@ -229,13 +229,13 @@ salary: int
 
 ## HW_2 Postman
 
-
 ## **Autotests_2.1**<a name="2.1"><a>
 
-### Method `GET`,  URL `http://162.55.220.72:5005/first`
 
 #### 1. Submit the request.
 
+Method `GET`,  URL `http://162.55.220.72:5005/first`	
+	
 The response
 ```
 This is the first responce from server!  
@@ -261,10 +261,8 @@ pm.test("Body matches string", function () {
 ## **Autotests_2.2**<a name="2.2"><a>	
 ***
 
-### Method `POST`,  URL `http://162.55.220.72:5005/user_info_3`
-
 #### 1. Submit the request.
-
+Method `POST`,  URL `http://162.55.220.72:5005/user_info_3`
 
 #### 2. Status code 200.
 
@@ -353,12 +351,11 @@ pm.test("Salary * 4 in 1.5 years", function () {
 ***
 
 ## **Autotests_2.3**<a name="2.3"><a>
-	
-### Method `GET`,  URL `http://162.55.220.72:5005/object_info_3`
 
 #### 1. Submit the request.
 
-
+Method `GET`,  URL `http://162.55.220.72:5005/object_info_3`
+	
 #### 2. Status code 200.
 
 ```js
@@ -446,11 +443,10 @@ pm.test("Dog age has value 4", () => {
 ***
 
 ## **Autotests_2.4**<a name="4.4"><a>	
-	
-### Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`
 
 #### 1. Submit a request.
 
+Method `GET`,  URL `http://162.55.220.72:5005/object_info_4`	
 
 #### 2. Status code 200.
 
@@ -598,8 +594,6 @@ console.log(resp.salary[i])
 ***
 
 ## **Autotests_2.5**<a name="2.5"><a>				      
-				      
-### Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
 
 #### 1. Insert the salary parameter from the environment into the request.
 In Body tab choose form-data. Set KEY salary and VALUE {{salary}}.
@@ -611,7 +605,7 @@ In Body tab choose form-data. Set KEY age and VALUE {{age}}.
 In Body tab choose form-data. Set KEY name and VALUE {{name}}.
 
 #### 4. Submit the request.
-
+Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
 
 #### 5. Status code 200.
 
