@@ -254,9 +254,9 @@ pm.test("Body matches string", function () {
     })
 ```
 
+***	
+	
 ## **Autotests_2.2**<a name="2.2"><a>	
-
-***
 
 #### 1. Submit the request.
 Method `POST`,  URL `http://162.55.220.72:5005/user_info_3`
