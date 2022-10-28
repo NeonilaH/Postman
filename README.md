@@ -375,7 +375,7 @@ let req = pm.request.url.query.toObject();
 #### 5. Check that the name in the response is equal to the name in the request (take the name from the request).
 
 ```js
-pm.test("Response name = Request name", () => {
+pm.test("Response name = Request name", function () {
     pm.expect(resp.name).to.eql(req.name)
 });
 ```
@@ -383,7 +383,7 @@ pm.test("Response name = Request name", () => {
 #### 6. Check that the age in the response is equal to the age in the request (take the age from the request).
 
 ```js
-pm.test("Response age = Request age", () => {
+pm.test("Response age = Request age", function () {
     pm.expect(resp.age).to.eql(req.age)
 });
 ```
@@ -391,7 +391,7 @@ pm.test("Response age = Request age", () => {
 #### 7. Check that the salary in the response is equal to the salary in the request (pick the salary from the request).
 
 ```js
-pm.test("Response salary = Request salary", () => {
+pm.test("Response salary = Request salary", function () {
     pm.expect(resp.salary).to.eql(+req.salary)
 });
 ```
@@ -399,7 +399,7 @@ pm.test("Response salary = Request salary", () => {
 #### 8. Print the family parameter from the response to the console.
 
 ```js
-pm.test("Console family response", () => {
+pm.test("Console family response", function () {
     console.log(resp.family)
 });
 ```
@@ -407,7 +407,7 @@ pm.test("Console family response", () => {
 #### 9. Check that the dog parameter has name parameters.
 
 ```js
-pm.test("Dog has name", () => {
+pm.test("Dog has name", function () {
     pm.expect(resp.family.pets.dog).haveOwnProperty("name")
 });
 ```
@@ -415,7 +415,7 @@ pm.test("Dog has name", () => {
 #### 10. Check that the dog parameter has age parameters.
 
 ```js
-pm.test("Dog has age", () => {
+pm.test("Dog has age", function () {
     pm.expect(resp.family.pets.dog).haveOwnProperty("age")
 });
 ```
@@ -423,7 +423,7 @@ pm.test("Dog has age", () => {
 #### 11. Check that the name parameter is set to Luky.
 
 ```js
-pm.test("Dog name has value Luky", () => {
+pm.test("Dog name has value Luky", function () {
     pm.expect(resp.family.pets.dog.name).to.eql("Luky");
 });
 ```
@@ -431,7 +431,7 @@ pm.test("Dog name has value Luky", () => {
 #### 12. Check that the age parameter is 4.
 
 ```js
-pm.test("Dog age has value 4", () => {
+pm.test("Dog age has value 4", function () {
     pm.expect(resp.family.pets.dog.age).to.eql(4);
 });
 ```
@@ -467,7 +467,7 @@ let req = pm.request.url.query.toObject();
 #### 5. Check that the name in the response is equal to the name in the request (take the name from the request).
 
 ```js
-pm.test("Response name = Request name", () => {
+pm.test("Response name = Request name", function () {
     pm.expect(resp.name).to.eql(req.name)
 });
 ```
@@ -475,7 +475,7 @@ pm.test("Response name = Request name", () => {
 #### 6. Check that the age in the response is equal to the age in the request (take the age from the request).
 
 ```js
-pm.test("Response age = Request age", () => {
+pm.test("Response age = Request age", function () {
     pm.expect(resp.age).to.eql(req.age)
 });
 ```
@@ -483,7 +483,7 @@ pm.test("Response age = Request age", () => {
 #### 7. Print the salary parameter from request to the console.
 
 ```js
-pm.test("Console salary request", () => {
+pm.test("Console salary request", function () {
     console.log(req.salary)
 });
 ```
@@ -491,7 +491,7 @@ pm.test("Console salary request", () => {
 #### 8. Print the salary parameter from response to the console.
 
 ```js
-pm.test("Console salary response", () => {
+pm.test("Console salary response", function () {
     console.log(resp.salary)
 });
 ```
@@ -499,7 +499,7 @@ pm.test("Console salary response", () => {
 #### 9. Print the 0th element of the salary parameter from response to the console.
 
 ```js
-pm.test("The 0th element of the salary", () => {
+pm.test("The 0th element of the salary", function () {
     console.log("the 0th element of the salary is ", resp.salary)
 });
 ```
@@ -507,7 +507,7 @@ pm.test("The 0th element of the salary", () => {
 #### 10. Print to the console the 1st element of the salary parameter, the salary parameter from the response.
 
 ```js
-pm.test("The 1th element of the salary", () => {
+pm.test("The 1th element of the salary", function () {
     console.log("the 1st element of the salary is " + resp.salary[1])
 });
 ```
@@ -515,7 +515,7 @@ pm.test("The 1th element of the salary", () => {
 #### 11. Print to the console the 2nd element of the salary parameter, the salary parameter from the response.
 
 ```js
-pm.test("The 2nd element of the salary", () => {
+pm.test("The 2nd element of the salary", function () {
     console.log("the 2nd element of the salary is " + resp.salary[2])
 });
 ```
@@ -523,7 +523,7 @@ pm.test("The 2nd element of the salary", () => {
 #### 12. Check that the 0th element of the salary parameter is equal to the salary from the request (pick the salary from the request).
 
 ```js
-pm.test("Response salary[0] = Request salary", () => {
+pm.test("Response salary[0] = Request salary", function () {
     pm.expect(resp.salary[0]).to.eql(+req.salary)
 });
 ```
@@ -531,7 +531,7 @@ pm.test("Response salary[0] = Request salary", () => {
 #### 13. Check that the 1st element of the salary parameter is equal to the salary*2 from the request (pick the salary from the request).
 
 ```js
-pm.test("Response salary[1] = Request salary * 2", () => {
+pm.test("Response salary[1] = Request salary * 2", function () {
     pm.expect(+resp.salary[1]).to.eql(+req.salary * 2)
 });
 ```
@@ -539,7 +539,7 @@ pm.test("Response salary[1] = Request salary * 2", () => {
 #### 14. Check that the 2nd element of the salary parameter is equal to the salary*3 from the request (pick the salary from the request).
 
 ```js
-pm.test("Response salary[2] = Request salary * 3", () => {
+pm.test("Response salary[2] = Request salary * 3", function () {
     pm.expect(+resp.salary[2]).to.eql(+req.salary * 3)
 });
 ```
@@ -606,7 +606,7 @@ Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
 #### 5. Status code 200.
 
 ```js
-pm.test("Status code is 200", () => {
+pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 ```
@@ -626,7 +626,7 @@ let req = request.data;
 #### 8. Check json response has start_qa_salary parameter.
 
 ```js
-pm.test("start_qa_salary in response", () => {
+pm.test("start_qa_salary in response", function () {
     pm.expect(resp).to.haveOwnProperty("start_qa_salary")
 });
 ```
@@ -634,7 +634,7 @@ pm.test("start_qa_salary in response", () => {
 #### 9. Check json response has qa_salary_after_6_months parameter.
 
 ```js
-pm.test("qa_salary_after_6_months in response", () => {
+pm.test("qa_salary_after_6_months in response", function () {
     pm.expect(resp).to.haveOwnProperty("qa_salary_after_6_months")
 });
 ```
@@ -642,7 +642,7 @@ pm.test("qa_salary_after_6_months in response", () => {
 #### 10. Check json response has qa_salary_after_12_months parameter.
 
 ```js
-pm.test ("qa_salary_after_12_months in response", () => {
+pm.test ("qa_salary_after_12_months in response", function () {
     pm.expect(resp).to.haveOwnProperty("qa_salary_after_12_months")
 });
 ```
@@ -650,7 +650,7 @@ pm.test ("qa_salary_after_12_months in response", () => {
 #### 11. Check json response has qa_salary_after_1.5_year parameter.
 
 ```js
-pm.test ("qa_salary_after_1.5_year in response", () => {
+pm.test ("qa_salary_after_1.5_year in response", function () {
     pm.expect(resp).to.haveOwnProperty("qa_salary_after_1.5_year")
 });
 ```
@@ -658,7 +658,7 @@ pm.test ("qa_salary_after_1.5_year in response", () => {
 #### 12. Check json response has qa_salary_after_3.5_years parameter.
 
 ```js
-pm.test ("qa_salary_after_3.5_years in response", () => {
+pm.test ("qa_salary_after_3.5_years in response", function () {
     pm.expect(resp).to.haveOwnProperty("qa_salary_after_3.5_years")
 });
 ```
@@ -666,14 +666,14 @@ pm.test ("qa_salary_after_3.5_years in response", () => {
 #### 13. Check json response has person parameter.
 
 ```js
-pm.test ("person in response", () => {
+pm.test ("person in response", function () {
     pm.expect(resp).to.haveOwnProperty("person")
 });
 ```
 #### 14. Check that the start_qa_salary parameter is equal to the salary from the request (take the salary from the request).
 
 ```js
-pm.test ("start_qa_salary = salary from the request", () => {
+pm.test ("start_qa_salary = salary from the request", function () {
     pm.expect(resp.start_qa_salary).to.eql(+req.salary)
 });
 ```
@@ -681,7 +681,7 @@ pm.test ("start_qa_salary = salary from the request", () => {
 #### 15. Check that the qa_salary_after_6_months parameter is equal to salary*2 from the request (take the salary from the request).
 
 ```js
-pm.test ("qa_salary_after_6_months = salary*2 from the request", () => {
+pm.test ("qa_salary_after_6_months = salary*2 from the request", function () {
     pm.expect(resp.qa_salary_after_6_months).to.eql(req.salary*2)
 });
 ```
@@ -689,7 +689,7 @@ pm.test ("qa_salary_after_6_months = salary*2 from the request", () => {
 #### 16. Check that the qa_salary_after_12_months parameter is equal to salary*2.7 from the request (take the salary from the request).
 
 ```js
-pm.test ("qa_salary_after_12_months = salary*2.7 from the request", () => {
+pm.test ("qa_salary_after_12_months = salary*2.7 from the request", function () {
     pm.expect(resp.qa_salary_after_12_months).to.eql(+req.salary*2.7)
 });
 ```
@@ -697,7 +697,7 @@ pm.test ("qa_salary_after_12_months = salary*2.7 from the request", () => {
 #### 17. Check that the qa_salary_after_1.5_year parameter is equal to salary*3.3 from the request (take the salary from the request).
 
 ```js
-pm.test ("qa_salary_after_1.5_year = salary*3.3 from the request", () => {
+pm.test ("qa_salary_after_1.5_year = salary*3.3 from the request", function () {
     pm.expect(resp['qa_salary_after_1.5_year']).to.eql(+req.salary*3.3)
 });
 ```
@@ -705,7 +705,7 @@ pm.test ("qa_salary_after_1.5_year = salary*3.3 from the request", () => {
 #### 18. Check that the qa_salary_after_3.5_years parameter is equal to salary*3.8 from the request (take the salary from the request).
 
 ```js
-pm.test ("qa_salary_after_3.5_year = salary*3.8 from the request", () => {
+pm.test ("qa_salary_after_3.5_year = salary*3.8 from the request", function () {
     pm.expect(resp['qa_salary_after_3.5_years']).to.eql(+req.salary*3.8)
 });
 ```
@@ -713,7 +713,7 @@ pm.test ("qa_salary_after_3.5_year = salary*3.8 from the request", () => {
 #### 19. Check that in the person parameter, the 1st element from u_name is equal to salary from the request (take the salary from the request).
 
 ```js
-pm.test("response u_name[1] = request salary", () => {
+pm.test("response u_name[1] = request salary", function () {
     pm.expect(resp.person.u_name[1]).to.eql(+req.salary);
 });
 ```
@@ -721,7 +721,7 @@ pm.test("response u_name[1] = request salary", () => {
 #### 20. Check that the u_age parameter is equal to age from  the request (take the salary from the request).
 
 ```js
-pm.test("response u_age = request age", () => {
+pm.test("response u_age = request age", function () {
     pm.expect(resp.person.u_age).to.eql(+req.age);
 });
 ```
@@ -729,7 +729,7 @@ pm.test("response u_age = request age", () => {
 #### 21. Check that the u_salary_5_years parameter is equal to salary*4.2 from  the request (take the salary from the request).
 
 ```js
-pm.test ("u_salary_5_years = salary*4.2 from the request", () => {
+pm.test ("u_salary_5_years = salary*4.2 from the request", function () {
     pm.expect(resp.person.u_salary_5_years).to.eql(+req.salary*4.2)
 });
 ```
