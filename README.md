@@ -10,7 +10,6 @@
 [Request_1.7](#1.7)</br>
 [Run collection_1.8](#1.8)
 
-
 ## HW_2 Postman
 
 [Autotests_2.1](#2.1)  
@@ -20,6 +19,7 @@
 [Autotests_2.5](#2.5) 
 
 ***
+
 ## HW_1 Postman
 
 ### Create requests in Postman.
@@ -27,7 +27,6 @@
 Protocol: http</br>
 IP: 162.55.220.72</br>
 Port: 5005
-
 
 ## **Request_1.1**<a name="1.1"><a>
     
@@ -126,7 +125,6 @@ salary: int
 }
 ``` 
           
-
 ## **Request_1.5**<a name="1.5"><a>
     
 Method: GET</br>
@@ -224,13 +222,11 @@ salary: int
 
 ![image](https://user-images.githubusercontent.com/106426661/174355822-a0084834-3291-47bc-840d-9aa2363b2dae.png)
 
-
 ***	
 
 ## HW_2 Postman
 
 ## **Autotests_2.1**<a name="2.1"><a>
-
 
 #### 1. Submit the request.
 
@@ -259,6 +255,7 @@ pm.test("Body matches string", function () {
 ```
 
 ## **Autotests_2.2**<a name="2.2"><a>	
+
 ***
 
 #### 1. Submit the request.
