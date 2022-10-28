@@ -11,6 +11,14 @@
 [Run collection_1.8](#1.8)
 
 
+## HW_2 Postman
+
+[Autotests_2.1](#2.1)  
+[Autotests_2.2](#2.2)   
+[Autotests_2.3](#2.3)     
+[Autotests_2.4](#2.4)     
+[Autotests_2.5](#2.5) 
+
 ### Create requests in Postman.
 
 Protocol: http</br>
@@ -213,13 +221,11 @@ salary: int
 
 ![image](https://user-images.githubusercontent.com/106426661/174355822-a0084834-3291-47bc-840d-9aa2363b2dae.png)
 
+
+***	
+
 ## HW_2 Postman
 
-[Autotests_2.1](#2.1)  
-[Autotests_2.2](#2.2)   
-[Autotests_2.3](#2.3)     
-[Autotests_2.4](#2.4)     
-[Autotests_2.5](#2.5) 
 
 ## **Autotests_2.1**<a name="2.1"><a>
 
