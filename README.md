@@ -591,13 +591,13 @@ console.log(resp.salary[i])
 ## **Autotests_&_Environments_2.5**<a name="2.5"><a>				      
 
 #### 1. Insert the salary parameter from the environment into the request.
-In Body tab choose form-data. Set KEY salary and VALUE {{salary}}.
+In Body tab choose form-data. Set KEY `salary` and VALUE `{{salary}}`.
 
 #### 2. Insert the age parameter from the environment into age.
-In Body tab choose form-data. Set KEY age and VALUE {{age}}.
+In Body tab choose form-data. Set KEY `age` and VALUE `{{age}}`.
 
 #### 3. Insert the name parameter from the environment into name.
-In Body tab choose form-data. Set KEY name and VALUE {{name}}.
+In Body tab choose form-data. Set KEY `name` and VALUE `{{name}}`.
 
 #### 4. Submit the request.
 Method `POST`,  URL `hhttp://162.55.220.72:5005/user_info_2`
